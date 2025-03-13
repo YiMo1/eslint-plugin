@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-yimo",
+  "version": "0.1.0",
+  "description": "伊墨的eslint插件",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": {
+    "name": "伊墨",
+    "email": "1905672206@qq.com",
+    "url": "https://github.com/YiMo1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "eslint-config-yimo": "^1.0.4",
+    "jiti": "^2.4.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
